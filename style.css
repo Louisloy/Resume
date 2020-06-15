@@ -1,0 +1,88 @@
+#profile
+{
+  height:130px;
+  border-radius:50%;
+  padding:10px 30px 10px 30px;
+}
+.firstname
+{
+  color: #e6be0b;
+}
+.one
+{
+ width: 100px;
+  margin-right:70px;
+}
+.underline
+{
+border-bottom:solid 2px #e6be0b;
+}
+.left
+{
+  color: #e6be0b;
+  background-color: rgb(71, 69, 69);
+  text-align: center;
+}
+.elements
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-content: space-around;
+align-items: flex-start;
+margin: 10px;
+padding:0px 5px 0px 30px ;
+width: 110%;
+}
+.content
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin: auto;
+width: 100%;
+max-width: 1100px;
+flex-wrap: wrap;
+}
+.container-1
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin: auto;
+width: 100%;
+max-width: 1100px;
+}
+.profilepict
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6be0b;
+  width: 20%; 
+}
+.name
+{
+  padding-left: 2em;
+}
+.container-2
+{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: #e6be0b;
+width: 20%;
+}
+.container-2 p
+{
+  margin: 0 1em;
+}
+.container-3
+{
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+margin: auto;
+padding: 10px 30px 10px 30px;
+width: 60%;
+}
